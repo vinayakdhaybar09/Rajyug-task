@@ -1,0 +1,25 @@
+#appointments {
+    width: 100%;
+    height: 100vh;
+
+    >div {
+        display: flex;
+        align-items: center;
+        color: $blue;
+        gap: 20px;
+        font-size: 10px;
+        border-bottom: 1px solid rgb(199, 199, 199);
+        padding: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2), 0px 12px 24px -4px rgba(145, 158, 171, 0.12);
+    }
+
+    >main{
+        padding: 30px 3%;
+        width: 100%;
+
+        >:nth-child(1){
+            margin-bottom: 40px;
+        }
+    }
+
+}

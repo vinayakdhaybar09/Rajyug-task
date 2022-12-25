@@ -1,0 +1,44 @@
+[
+    {
+        "bp": "54",
+        "channel": "ch3",
+        "date": "2022-12-21",
+        "doctorName": "dct2",
+        "height": "87",
+        "id": 101,
+        "name": "Vinayak Dhaybar",
+        "note": "ch1",
+        "pilserate": "32",
+        "reason": "none",
+        "spo2": "86",
+        "temp": "12",
+        "time": "11:15",
+        "title": "headach",
+        "type": "ch3",
+        "userid": "PID-836241565",
+        "walkin": "",
+        "weight": "65"
+    },
+    {
+        "bp": "54",
+        "channel": "ch3",
+        "date": "2022-12-21",
+        "doctorName": "dct2",
+        "height": "87",
+        "id": 101,
+        "name": "Sayali More",
+        "note": "ch1",
+        "pilserate": "32",
+        "reason": "none",
+        "spo2": "86",
+        "temp": "12",
+        "time": "12:18",
+        "title": "headach",
+        "type": "ch3",
+        "userid": "PID-836241565",
+        "walkin": "",
+        "weight": "65"
+    }
+
+
+]

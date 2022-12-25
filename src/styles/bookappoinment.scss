@@ -1,0 +1,54 @@
+#bookappointment {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    >nav {
+        width: 5%;
+        background-color: $blue;
+    }
+
+    >main {
+        padding: 20px 2%;
+        width: 100%;
+
+        >div {
+            display: flex;
+            align-items: center;
+            color: $blue;
+            gap: 20px;
+        }
+
+        >section {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 90%;
+            margin-top: 20px;
+
+            >:nth-child(1) {
+                width: 40%;
+                height: 90%;
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2), 0px 12px 24px -4px rgba(145, 158, 171, 0.12);
+                border-radius: 8px;
+            }
+
+            >:nth-child(2) {
+                width: 58%;
+                height: 90%;
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2), 0px 12px 24px -4px rgba(145, 158, 171, 0.12);
+                border-radius: 8px;
+            }
+        }
+
+        >footer {
+            border-top: 1px solid rgb(201, 201, 201);
+            text-align: center;
+            font-size: 13px;
+            color: $blue;
+
+        }
+    }
+
+
+}

@@ -1,0 +1,35 @@
+#slots {
+    width: 100%;
+
+    >h3 {
+        color: $blue;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    >div {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+
+        >main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            >p {
+                color: $blue;
+            }
+
+            >button {
+                border: none;
+                background-color: white;
+                color: rgb(69, 197, 69);
+                font-weight: 600;
+                box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 12px 24px -4px rgba(145, 158, 171, 0.12);
+                border-radius: 8px;
+                padding: 10px 18px;
+            }
+        }
+    }
+}
